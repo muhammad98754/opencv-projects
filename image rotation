@@ -13,7 +13,7 @@ def funct(x):
 
 
 img=cv.imread("lena.jpg")
-w,h=img.shape[:2]
+h,w=img.shape[:2]
 center=[w/2,h/2]
 
 
